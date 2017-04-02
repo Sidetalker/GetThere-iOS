@@ -14,6 +14,12 @@
 		0AB44A021E918AE800957285 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AB44A001E918AE800957285 /* LaunchScreen.storyboard */; };
 		0AB44A0D1E918AE800957285 /* GetThereTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB44A0C1E918AE800957285 /* GetThereTests.swift */; };
 		0AB44A181E918AE800957285 /* GetThereUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB44A171E918AE800957285 /* GetThereUITests.swift */; };
+		0AB44A3D1E918D5500957285 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0AB44A3C1E918D5500957285 /* GoogleService-Info.plist */; };
+		0AB44A4D1E918DEB00957285 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB44A481E918DEB00957285 /* FirebaseAnalytics.framework */; };
+		0AB44A4E1E918DEB00957285 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB44A491E918DEB00957285 /* FirebaseCore.framework */; };
+		0AB44A4F1E918DEB00957285 /* FirebaseDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB44A4A1E918DEB00957285 /* FirebaseDatabase.framework */; };
+		0AB44A501E918DEB00957285 /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB44A4B1E918DEB00957285 /* FirebaseInstanceID.framework */; };
+		0AB44A511E918DEB00957285 /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB44A4C1E918DEB00957285 /* GoogleToolboxForMac.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,23 @@
 		0AB44A131E918AE800957285 /* GetThereUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetThereUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AB44A171E918AE800957285 /* GetThereUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetThereUITests.swift; sourceTree = "<group>"; };
 		0AB44A191E918AE800957285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AB44A341E918BEE00957285 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		0AB44A361E918CCC00957285 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		0AB44A381E918CD800957285 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		0AB44A3A1E918D0E00957285 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0AB44A3C1E918D5500957285 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0AB44A3E1E918DDD00957285 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = ../../../Downloads/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		0AB44A3F1E918DDD00957285 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = ../../../Downloads/FirebaseCore.framework; sourceTree = "<group>"; };
+		0AB44A401E918DDD00957285 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = ../../../Downloads/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		0AB44A411E918DDD00957285 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = ../../../Downloads/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		0AB44A421E918DDD00957285 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleToolboxForMac.framework; path = ../../../Downloads/GoogleToolboxForMac.framework; sourceTree = "<group>"; };
+		0AB44A481E918DEB00957285 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		0AB44A491E918DEB00957285 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = "<group>"; };
+		0AB44A4A1E918DEB00957285 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseDatabase.framework; sourceTree = "<group>"; };
+		0AB44A4B1E918DEB00957285 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		0AB44A4C1E918DEB00957285 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleToolboxForMac.framework; sourceTree = "<group>"; };
+		0AB44A521E918E1000957285 /* Firebase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
+		0AB44A531E918E1000957285 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +77,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AB44A4F1E918DEB00957285 /* FirebaseDatabase.framework in Frameworks */,
+				0AB44A4E1E918DEB00957285 /* FirebaseCore.framework in Frameworks */,
+				0AB44A4D1E918DEB00957285 /* FirebaseAnalytics.framework in Frameworks */,
+				0AB44A501E918DEB00957285 /* FirebaseInstanceID.framework in Frameworks */,
+				0AB44A511E918DEB00957285 /* GoogleToolboxForMac.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +109,7 @@
 				0AB44A0B1E918AE800957285 /* GetThereTests */,
 				0AB44A161E918AE800957285 /* GetThereUITests */,
 				0AB449F51E918AE800957285 /* Products */,
+				0AB44A331E918BEE00957285 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +126,10 @@
 		0AB449F61E918AE800957285 /* GetThere */ = {
 			isa = PBXGroup;
 			children = (
-				0AB449F71E918AE800957285 /* AppDelegate.swift */,
+				0AB44A3C1E918D5500957285 /* GoogleService-Info.plist */,
+				0AB44A251E918AF500957285 /* Frameworks */,
 				0AB449F91E918AE800957285 /* ViewController.swift */,
+				0AB449F71E918AE800957285 /* AppDelegate.swift */,
 				0AB449FB1E918AE800957285 /* Main.storyboard */,
 				0AB449FE1E918AE800957285 /* Assets.xcassets */,
 				0AB44A001E918AE800957285 /* LaunchScreen.storyboard */,
@@ -123,6 +154,44 @@
 				0AB44A191E918AE800957285 /* Info.plist */,
 			);
 			path = GetThereUITests;
+			sourceTree = "<group>";
+		};
+		0AB44A251E918AF500957285 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AB44A261E918AFB00957285 /* Firebase */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0AB44A261E918AFB00957285 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				0AB44A521E918E1000957285 /* Firebase.h */,
+				0AB44A531E918E1000957285 /* module.modulemap */,
+				0AB44A481E918DEB00957285 /* FirebaseAnalytics.framework */,
+				0AB44A491E918DEB00957285 /* FirebaseCore.framework */,
+				0AB44A4A1E918DEB00957285 /* FirebaseDatabase.framework */,
+				0AB44A4B1E918DEB00957285 /* FirebaseInstanceID.framework */,
+				0AB44A4C1E918DEB00957285 /* GoogleToolboxForMac.framework */,
+			);
+			name = Firebase;
+			sourceTree = "<group>";
+		};
+		0AB44A331E918BEE00957285 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AB44A3E1E918DDD00957285 /* FirebaseAnalytics.framework */,
+				0AB44A3F1E918DDD00957285 /* FirebaseCore.framework */,
+				0AB44A401E918DDD00957285 /* FirebaseDatabase.framework */,
+				0AB44A411E918DDD00957285 /* FirebaseInstanceID.framework */,
+				0AB44A421E918DDD00957285 /* GoogleToolboxForMac.framework */,
+				0AB44A3A1E918D0E00957285 /* SystemConfiguration.framework */,
+				0AB44A381E918CD800957285 /* AddressBook.framework */,
+				0AB44A361E918CCC00957285 /* libz.tbd */,
+				0AB44A341E918BEE00957285 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AB44A021E918AE800957285 /* LaunchScreen.storyboard in Resources */,
+				0AB44A3D1E918D5500957285 /* GoogleService-Info.plist in Resources */,
 				0AB449FF1E918AE800957285 /* Assets.xcassets in Resources */,
 				0AB449FD1E918AE800957285 /* Main.storyboard in Resources */,
 			);
@@ -418,8 +488,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = S7BT87895F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GetThere/Frameworks/Firebase",
+					"$(PROJECT_DIR)/GetThere",
+				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/GetThere";
 				INFOPLIST_FILE = GetThere/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sideapps.GetThere;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -431,8 +508,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = S7BT87895F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GetThere/Frameworks/Firebase",
+					"$(PROJECT_DIR)/GetThere",
+				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/GetThere";
 				INFOPLIST_FILE = GetThere/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sideapps.GetThere;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -516,6 +600,7 @@
 				0AB44A1E1E918AE800957285 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0AB44A1F1E918AE800957285 /* Build configuration list for PBXNativeTarget "GetThereTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +609,7 @@
 				0AB44A211E918AE800957285 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0AB44A221E918AE800957285 /* Build configuration list for PBXNativeTarget "GetThereUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +618,7 @@
 				0AB44A241E918AE800957285 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

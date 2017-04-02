@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>724110706946-ur1k2liqnjn8b1fd7q30eh6up1vnl1s4.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.724110706946-ur1k2liqnjn8b1fd7q30eh6up1vnl1s4</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC80RtohqOgo_ZWZ4lbSrjFrPhSWgpL7jE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>724110706946</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.sideapps.GetThere</string>
+	<key>PROJECT_ID</key>
+	<string>getthere-web</string>
+	<key>STORAGE_BUCKET</key>
+	<string>getthere-web.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:724110706946:ios:6f5b1fbc38cfda0e</string>
+	<key>DATABASE_URL</key>
+	<string>https://getthere-web.firebaseio.com</string>
+</dict>
+</plist>

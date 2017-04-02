@@ -20,6 +20,16 @@
 		0AB44A4F1E918DEB00957285 /* FirebaseDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB44A4A1E918DEB00957285 /* FirebaseDatabase.framework */; };
 		0AB44A501E918DEB00957285 /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB44A4B1E918DEB00957285 /* FirebaseInstanceID.framework */; };
 		0AB44A511E918DEB00957285 /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB44A4C1E918DEB00957285 /* GoogleToolboxForMac.framework */; };
+		0AB44A621E91971200957285 /* GetThereUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB44A591E91971200957285 /* GetThereUI.framework */; };
+		0AB44A691E91971200957285 /* GetThereUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB44A681E91971200957285 /* GetThereUITests.swift */; };
+		0AB44A6B1E91971200957285 /* GetThereUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AB44A5B1E91971200957285 /* GetThereUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AB44A6E1E91971200957285 /* GetThereUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB44A591E91971200957285 /* GetThereUI.framework */; };
+		0AB44A6F1E91971200957285 /* GetThereUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB44A591E91971200957285 /* GetThereUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0AB44A781E91975000957285 /* PaintedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB44A771E91975000957285 /* PaintedView.swift */; };
+		0AB44A7C1E91984700957285 /* Paint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB44A7B1E91984700957285 /* Paint.swift */; };
+		0AB44A7F1E919B8300957285 /* FirebaseAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB44A7D1E919B8300957285 /* FirebaseAuth.framework */; };
+		0AB44A801E919B8300957285 /* GTMSessionFetcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB44A7E1E919B8300957285 /* GTMSessionFetcher.framework */; };
+		0AB44A821E91A34400957285 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB44A811E91A34400957285 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +47,42 @@
 			remoteGlobalIDString = 0AB449F31E918AE800957285;
 			remoteInfo = GetThere;
 		};
+		0AB44A631E91971200957285 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AB449EC1E918AE800957285 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AB44A581E91971200957285;
+			remoteInfo = GetThereUI;
+		};
+		0AB44A651E91971200957285 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AB449EC1E918AE800957285 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AB449F31E918AE800957285;
+			remoteInfo = GetThere;
+		};
+		0AB44A6C1E91971200957285 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AB449EC1E918AE800957285 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AB44A581E91971200957285;
+			remoteInfo = GetThereUI;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0AB44A731E91971200957285 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0AB44A6F1E91971200957285 /* GetThereUI.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0AB449F41E918AE800957285 /* GetThere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetThere.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,6 +115,17 @@
 		0AB44A4C1E918DEB00957285 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleToolboxForMac.framework; sourceTree = "<group>"; };
 		0AB44A521E918E1000957285 /* Firebase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
 		0AB44A531E918E1000957285 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		0AB44A591E91971200957285 /* GetThereUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GetThereUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AB44A5B1E91971200957285 /* GetThereUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GetThereUI.h; sourceTree = "<group>"; };
+		0AB44A5C1E91971200957285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AB44A611E91971200957285 /* GetThereUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetThereUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AB44A681E91971200957285 /* GetThereUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetThereUITests.swift; sourceTree = "<group>"; };
+		0AB44A6A1E91971200957285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AB44A771E91975000957285 /* PaintedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaintedView.swift; sourceTree = "<group>"; };
+		0AB44A7B1E91984700957285 /* Paint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paint.swift; sourceTree = "<group>"; };
+		0AB44A7D1E919B8300957285 /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAuth.framework; sourceTree = "<group>"; };
+		0AB44A7E1E919B8300957285 /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GTMSessionFetcher.framework; sourceTree = "<group>"; };
+		0AB44A811E91A34400957285 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,10 +133,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AB44A821E91A34400957285 /* CoreLocation.framework in Frameworks */,
 				0AB44A4F1E918DEB00957285 /* FirebaseDatabase.framework in Frameworks */,
+				0AB44A7F1E919B8300957285 /* FirebaseAuth.framework in Frameworks */,
 				0AB44A4E1E918DEB00957285 /* FirebaseCore.framework in Frameworks */,
 				0AB44A4D1E918DEB00957285 /* FirebaseAnalytics.framework in Frameworks */,
+				0AB44A801E919B8300957285 /* GTMSessionFetcher.framework in Frameworks */,
 				0AB44A501E918DEB00957285 /* FirebaseInstanceID.framework in Frameworks */,
+				0AB44A6E1E91971200957285 /* GetThereUI.framework in Frameworks */,
 				0AB44A511E918DEB00957285 /* GoogleToolboxForMac.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -99,15 +159,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0AB44A551E91971200957285 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AB44A5E1E91971200957285 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AB44A621E91971200957285 /* GetThereUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		0AB449EB1E918AE800957285 = {
 			isa = PBXGroup;
 			children = (
+				0AB44A5A1E91971200957285 /* GetThereUI */,
 				0AB449F61E918AE800957285 /* GetThere */,
 				0AB44A0B1E918AE800957285 /* GetThereTests */,
 				0AB44A161E918AE800957285 /* GetThereUITests */,
+				0AB44A671E91971200957285 /* GetThereUITests */,
 				0AB449F51E918AE800957285 /* Products */,
 				0AB44A331E918BEE00957285 /* Frameworks */,
 			);
@@ -119,6 +196,8 @@
 				0AB449F41E918AE800957285 /* GetThere.app */,
 				0AB44A081E918AE800957285 /* GetThereTests.xctest */,
 				0AB44A131E918AE800957285 /* GetThereUITests.xctest */,
+				0AB44A591E91971200957285 /* GetThereUI.framework */,
+				0AB44A611E91971200957285 /* GetThereUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -169,6 +248,8 @@
 			children = (
 				0AB44A521E918E1000957285 /* Firebase.h */,
 				0AB44A531E918E1000957285 /* module.modulemap */,
+				0AB44A7D1E919B8300957285 /* FirebaseAuth.framework */,
+				0AB44A7E1E919B8300957285 /* GTMSessionFetcher.framework */,
 				0AB44A481E918DEB00957285 /* FirebaseAnalytics.framework */,
 				0AB44A491E918DEB00957285 /* FirebaseCore.framework */,
 				0AB44A4A1E918DEB00957285 /* FirebaseDatabase.framework */,
@@ -181,6 +262,7 @@
 		0AB44A331E918BEE00957285 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0AB44A811E91A34400957285 /* CoreLocation.framework */,
 				0AB44A3E1E918DDD00957285 /* FirebaseAnalytics.framework */,
 				0AB44A3F1E918DDD00957285 /* FirebaseCore.framework */,
 				0AB44A401E918DDD00957285 /* FirebaseDatabase.framework */,
@@ -194,7 +276,38 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		0AB44A5A1E91971200957285 /* GetThereUI */ = {
+			isa = PBXGroup;
+			children = (
+				0AB44A7B1E91984700957285 /* Paint.swift */,
+				0AB44A5B1E91971200957285 /* GetThereUI.h */,
+				0AB44A5C1E91971200957285 /* Info.plist */,
+				0AB44A771E91975000957285 /* PaintedView.swift */,
+			);
+			path = GetThereUI;
+			sourceTree = "<group>";
+		};
+		0AB44A671E91971200957285 /* GetThereUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0AB44A681E91971200957285 /* GetThereUITests.swift */,
+				0AB44A6A1E91971200957285 /* Info.plist */,
+			);
+			path = GetThereUITests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0AB44A561E91971200957285 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AB44A6B1E91971200957285 /* GetThereUI.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		0AB449F31E918AE800957285 /* GetThere */ = {
@@ -204,10 +317,12 @@
 				0AB449F01E918AE800957285 /* Sources */,
 				0AB449F11E918AE800957285 /* Frameworks */,
 				0AB449F21E918AE800957285 /* Resources */,
+				0AB44A731E91971200957285 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0AB44A6D1E91971200957285 /* PBXTargetDependency */,
 			);
 			name = GetThere;
 			productName = GetThere;
@@ -250,6 +365,43 @@
 			productReference = 0AB44A131E918AE800957285 /* GetThereUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		0AB44A581E91971200957285 /* GetThereUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AB44A701E91971200957285 /* Build configuration list for PBXNativeTarget "GetThereUI" */;
+			buildPhases = (
+				0AB44A541E91971200957285 /* Sources */,
+				0AB44A551E91971200957285 /* Frameworks */,
+				0AB44A561E91971200957285 /* Headers */,
+				0AB44A571E91971200957285 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GetThereUI;
+			productName = GetThereUI;
+			productReference = 0AB44A591E91971200957285 /* GetThereUI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0AB44A601E91971200957285 /* GetThereUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AB44A741E91971200957285 /* Build configuration list for PBXNativeTarget "GetThereUITests" */;
+			buildPhases = (
+				0AB44A5D1E91971200957285 /* Sources */,
+				0AB44A5E1E91971200957285 /* Frameworks */,
+				0AB44A5F1E91971200957285 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AB44A641E91971200957285 /* PBXTargetDependency */,
+				0AB44A661E91971200957285 /* PBXTargetDependency */,
+			);
+			name = GetThereUITests;
+			productName = GetThereUITests;
+			productReference = 0AB44A611E91971200957285 /* GetThereUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -277,6 +429,18 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 0AB449F31E918AE800957285;
 					};
+					0AB44A581E91971200957285 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = S7BT87895F;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					0AB44A601E91971200957285 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = S7BT87895F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0AB449F31E918AE800957285;
+					};
 				};
 			};
 			buildConfigurationList = 0AB449EF1E918AE800957285 /* Build configuration list for PBXProject "GetThere" */;
@@ -295,6 +459,8 @@
 				0AB449F31E918AE800957285 /* GetThere */,
 				0AB44A071E918AE800957285 /* GetThereTests */,
 				0AB44A121E918AE800957285 /* GetThereUITests */,
+				0AB44A581E91971200957285 /* GetThereUI */,
+				0AB44A601E91971200957285 /* GetThereUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -319,6 +485,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0AB44A111E918AE800957285 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AB44A571E91971200957285 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AB44A5F1E91971200957285 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -353,6 +533,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0AB44A541E91971200957285 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AB44A7C1E91984700957285 /* Paint.swift in Sources */,
+				0AB44A781E91975000957285 /* PaintedView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AB44A5D1E91971200957285 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AB44A691E91971200957285 /* GetThereUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -365,6 +562,21 @@
 			isa = PBXTargetDependency;
 			target = 0AB449F31E918AE800957285 /* GetThere */;
 			targetProxy = 0AB44A141E918AE800957285 /* PBXContainerItemProxy */;
+		};
+		0AB44A641E91971200957285 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AB44A581E91971200957285 /* GetThereUI */;
+			targetProxy = 0AB44A631E91971200957285 /* PBXContainerItemProxy */;
+		};
+		0AB44A661E91971200957285 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AB449F31E918AE800957285 /* GetThere */;
+			targetProxy = 0AB44A651E91971200957285 /* PBXContainerItemProxy */;
+		};
+		0AB44A6D1E91971200957285 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AB44A581E91971200957285 /* GetThereUI */;
+			targetProxy = 0AB44A6C1E91971200957285 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -486,6 +698,7 @@
 		0AB44A1D1E918AE800957285 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = S7BT87895F;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -506,6 +719,7 @@
 		0AB44A1E1E918AE800957285 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = S7BT87895F;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -581,6 +795,81 @@
 			};
 			name = Release;
 		};
+		0AB44A711E91971200957285 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = S7BT87895F;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = GetThereUI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sideapps.GetThereUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0AB44A721E91971200957285 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = S7BT87895F;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = GetThereUI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sideapps.GetThereUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0AB44A751E91971200957285 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = S7BT87895F;
+				INFOPLIST_FILE = GetThereUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sideapps.GetThereUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetThere.app/GetThere";
+			};
+			name = Debug;
+		};
+		0AB44A761E91971200957285 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = S7BT87895F;
+				INFOPLIST_FILE = GetThereUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sideapps.GetThereUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetThere.app/GetThere";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -619,6 +908,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		0AB44A701E91971200957285 /* Build configuration list for PBXNativeTarget "GetThereUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AB44A711E91971200957285 /* Debug */,
+				0AB44A721E91971200957285 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0AB44A741E91971200957285 /* Build configuration list for PBXNativeTarget "GetThereUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AB44A751E91971200957285 /* Debug */,
+				0AB44A761E91971200957285 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
